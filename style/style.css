@@ -94,6 +94,57 @@ header {
     color: #FFF;
 }
 .banner-description{
+    padding-top: 20px;
     font-size: 24px;
     font-weight: 700;
+    color: #3BD770;
+}
+.banner-network{
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+}
+.banner-join-ask{
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFF;
+}
+.join-details{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 25px ;
+    grid-column-gap:76px ;
+
+}
+
+.join-item{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.ratio-item p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+
+}
+.rewards-info{
+    padding-top: 74px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 40px;
+    padding-bottom: 29px;
+}
+.rewards-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.refer-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
 }
