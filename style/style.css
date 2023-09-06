@@ -6,6 +6,11 @@
     text-decoration: none;
 }
 
+main {
+    width: 1920px;
+    background-color: #F3F3F6;
+}
+
 header {
     background: url(../BG\ 1.png), radial-gradient(50% 50% at 50% 50%, #383B6C 0%, #202247 100%);
     background-size: cover;
@@ -631,7 +636,8 @@ hr {
     padding-top: 59px;
     padding-bottom: 90px;
 }
-.careers-info hr{
+
+.careers-info hr {
     width: 1050px;
     height: 1px;
     color: #333333;
@@ -651,4 +657,108 @@ hr {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 40px;
+}
+
+
+
+.container3 {
+    position: relative;
+    height: 637px;
+    width: 1920px;
+}
+
+.container3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 637px;
+    background: rgba(95, 74, 43, 0.65);
+    z-index: 1;
+    /* Ensure the overlay is above the background image */
+}
+
+.container3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 637px;
+    background-image: url(../Img/front-view-people-having-meeting-office\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    /* Ensure the background image is below the overlay */
+}
+
+.video-title {
+    z-index: 2;
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    padding-top: 116px;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 11px;
+}
+
+.video-description {
+    z-index: 2;
+    padding: 0px 80px;
+    text-align: center;
+    margin-left: 570px;
+    position: relative;
+    color: #FFF;
+    width: 780px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container3 img {
+    padding-top: 52px;
+    z-index: 2;
+    position: relative;
+    margin: 0px 901px;
+}
+
+.video-watch {
+    position: relative;
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 26px;
+}
+
+.container4 {
+    width: 1590px;
+    margin-top: 91px;
+    margin-left: 165px;
+    background-color: #F3F3F6;
+}
+
+.Explore-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.Explore-title {
+    padding-top: 58px;
+    padding-left: 101px;
+    color: #333;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.Explore-description {
+    padding-top: 2px;
+    padding-left: 101px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
 }
