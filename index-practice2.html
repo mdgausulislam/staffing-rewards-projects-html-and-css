@@ -1,0 +1,36 @@
+<html>
+<head>
+  <style>
+    .half-black-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #000; /* Set the background color to black */
+      color: white; /* Set the text color to white */
+      border: none;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .half-black-button::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      background-color: #fff; /* Set the left half to white */
+      z-index: -1;
+    }
+
+    .half-black-button span {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <button class="half-black-button">
+    <span>Click Me</span>
+  </button>
+</body>
+</html>

@@ -114,7 +114,7 @@ header {
 .join-details{
     padding-top: 20px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns:147px auto;
     grid-row-gap: 25px ;
     grid-column-gap:76px ;
 
@@ -134,10 +134,13 @@ header {
 .rewards-info{
     padding-top: 74px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 40px;
+    grid-template-columns:90px 140px auto;
+    grid-column-gap:40px;
     padding-bottom: 29px;
 }
+
+
+
 .rewards-item{
     display: flex;
     align-items: center;
@@ -147,4 +150,18 @@ header {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
+}
+.banner-platform{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #515151;
+    height: 77px;
+    margin-top: -4px;
+}
+.platform-description{
+    font-size: 26px;
+    font-weight: 500;
+    color: #FFF;
+
 }
