@@ -473,7 +473,182 @@ hr {
     font-size: 18px;
     font-weight: 400;
 }
-hr{
+
+.who-are-img {
+    width: 1590px;
+}
+
+hr {
     border: 1px solid #333;
 }
 
+.grid-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 94px;
+    grid-row-gap: 40px;
+    padding-top: 133px;
+}
+
+.achievement {
+    display: flex;
+    gap: 93px;
+    align-items: center;
+}
+
+.Achievements-title {
+    padding-top: 110px;
+    color: #1D9E49;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 45px;
+}
+
+.join2 {
+    height: 140px;
+    margin: 0 auto;
+    position: relative;
+    perspective: 550px;
+}
+
+.button2 {
+    transform: rotateY(38deg) rotateZ(1deg);
+    position: absolute;
+    height: 95px;
+    width: 320px;
+    background: #282563;
+}
+
+.join2 span {
+    position: relative;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -90px;
+}
+
+.achievements-description {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    width: 264px;
+}
+
+.percentage {
+    padding-top: 15px;
+    color: #000;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.service-list {
+    display: flex;
+    gap: 174px;
+    align-items: center;
+    background-color: #FFF;
+
+}
+
+.container2 {
+    width: 1920px;
+    padding-top: 70px;
+    background-color: #F3F3F6;
+}
+
+.our-details {
+    padding-left: 165PX;
+    padding-top: 90px;
+    padding-bottom: 23px;
+    color: #333;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.join3 {
+    height: 76px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-perspective: 550px;
+    padding-left: 165px;
+}
+
+.button3 {
+    -webkit-transform: rotateY(25deg) rotateZ(1deg);
+    position: absolute;
+    height: 70px;
+    width: 220px;
+    background: #282563;
+}
+
+.join3 span {
+    position: relative;
+    display: block;
+    padding-left: 45px;
+    padding-top: 15px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.service-details {
+    padding-left: 165px;
+    padding-top: 36px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 54px;
+    width: 400px;
+}
+
+.service-it hr {
+    margin-left: 165px;
+    width: 375px;
+    height: 1px;
+    color: #333333;
+}
+
+.box {
+    margin-left: 165px;
+    width: 61px;
+    height: 17px;
+    background-color: #333333;
+}
+
+
+
+
+.Consulting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.careers-info {
+    padding-top: 59px;
+    padding-bottom: 90px;
+}
+.careers-info hr{
+    width: 1050px;
+    height: 1px;
+    color: #333333;
+
+}
+
+.Consulting-title {
+    padding-top: 40px;
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Consulting-description {
+    padding-top: 10px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
