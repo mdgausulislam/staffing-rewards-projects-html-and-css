@@ -1041,6 +1041,7 @@ hr {
 .img-02 {
     padding-left: 17.5px;
     padding-top: 212px;
+    margin-bottom: 95px;
 }
 
 .resource-title {
@@ -1057,15 +1058,134 @@ hr {
     font-size: 18px;
     font-weight: 500;
     padding-bottom: 50px;
+    padding-right: 65px;
 }
 
-.profile-review{
+.profile-review {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.profile{
+
+.profile {
     display: flex;
     align-items: center;
     gap: 14px;
+}
+
+.arrow {
+    padding-left: 20px;
+    padding-right: 63px;
+}
+
+.arrow-img1 {
+    margin-right: 20px;
+}
+
+
+/* footer part start */
+
+
+.footer {
+    margin-top: 98px;
+    background: #D2D4CB;
+}
+
+.our-motor {
+    padding-top: 92px;
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.footer-title {
+    color: #1D9E49;
+    text-align: center;
+    font-size: 66px;
+    font-weight: 600;
+}
+
+.footer-description {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+.footer hr {
+    margin-top: 51px;
+    width: 1590px;
+    height: 1px;
+    background: #333;
+    margin-left: 165px;
+}
+
+.box5 {
+    width: 60px;
+    height: 17px;
+    background: #333;
+    margin-left: 1695px;
+    margin-top: -2px;
+}
+
+.footer-details {
+    padding-top: 74px;
+    padding-left: 165px;
+    padding-right: 165px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.footer-type {
+    color: #333333;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+
+.Reach-us-details {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 38px;
+    /* 211.111% */
+}
+
+.Social-details {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 38px;
+    /* 211.111% */
+
+}
+
+.Capabilities-details {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 38px;
+    /* 211.111% */
+}
+
+.why-sr-details {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+.icon-vector {
+    padding-top: 50px;
+    padding-left: 165px;
+}
+
+.all-rights {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
 }
