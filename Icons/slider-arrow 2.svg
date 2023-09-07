@@ -1,0 +1,12 @@
+<svg width="92" height="64" viewBox="0 0 92 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="slider-arrow 2" clip-path="url(#clip0_8_263)">
+<path id="Vector" d="M32 63C14.8792 63 1 49.1208 1 32C1 14.8792 14.8792 1 32 1C49.1208 1 63 14.8792 63 32C63 49.1208 49.1208 63 32 63Z" fill="white" stroke="#232321" stroke-width="2"/>
+<path id="Vector_2" d="M92 32.0001L82 37.7736V26.2266L92 32.0001ZM32 31.0001H83V33.0001H32V31.0001Z" fill="#232321"/>
+<path id="Vector_3" d="M32 38C28.6863 38 26 35.3137 26 32C26 28.6863 28.6863 26 32 26C35.3137 26 38 28.6863 38 32C38 35.3137 35.3137 38 32 38Z" fill="#282563"/>
+</g>
+<defs>
+<clipPath id="clip0_8_263">
+<rect width="92" height="64" fill="white" transform="matrix(-1 0 0 1 92 0)"/>
+</clipPath>
+</defs>
+</svg>
