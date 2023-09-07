@@ -1181,6 +1181,9 @@ hr {
 .icon-vector {
     padding-top: 50px;
     padding-left: 165px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .all-rights {
@@ -1188,4 +1191,23 @@ hr {
     font-size: 16px;
     font-weight: 400;
     line-height: 38px;
+    padding-left: 165px;
+}
+
+.footer-img3{
+        position: relative;
+        margin-bottom: -4px;
+        padding-right: 1px;
+} 
+.footer-img4 {
+    margin-left: -26px;
+    position: relative;
+    margin-bottom: -4px;
+}
+
+.footer-img {
+    background-color: #1D9E49;
+    padding-top: 14px;
+    padding-left: 6px;
+    border-radius: 10px;
 }
