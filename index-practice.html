@@ -1,152 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-  
+        .document-item {
+            padding-top: 65px;
+            padding-left: 105px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
 
-  .best-grid {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 330px 675px 330px;
-    /* grid-auto-rows: auto;             Allow the row height to adjust automatically */
-    grid-gap: 20px; /* Adjust the gap between columns and rows */
-}
-.Retail{
-  grid-column: 1fr auto;
-}
+        .Health-Care,
+        .Scientific {
+            width: 675px;
+            height: 318px;
+            background: #434AC9;
+        }
 
-/* Style for your grid items */
-.Health-Care,
-.Financial-Services,
-.Retail,
-.Scientific,
-.Manufacturing-Engineering > div {
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-}
+        .Health-Care img {
+            padding-top: 39px;
+            padding-left: 30px;
+            padding-bottom: 15px;
+        }
 
-/* Ensure that the "Manufacturing-Engineering" section spans two rows */
-.Manufacturing-Engineering {
-    grid-column: 3; /* Start at column 3 */
-    grid-row: span 2; /* Span two rows */
-}
+        .Health-Car-title {
+            padding-left: 30px;
+            color: #FFF;
+            font-size: 22px;
+            font-weight: 600;
+        }
 
-/* Style for Read More link */
-.read-more {
-    color: #007bff;
-    text-decoration: none;
-}
+        .Health-Car-description {
+            width: 607px;
+            height: 82px;
+            color: #FFF;
+            font-size: 16px;
+            font-weight: 400;
+            padding-left: 30px;
+            padding-top: 12px;
+        }
 
-.read-more:hover {
-    text-decoration: underline;
-}
-.Health-Care,.Scientific {
-    width: 675px;
-    height: 318px;
-    background: #434AC9;
-}
+        .read-more {
+            color: #FFF;
+            font-size: 18px;
+            font-weight: 400;
+            padding-left: 30px;
+            padding-top: 18px;
+        }
 
-.Health-Care img {
-    padding-top: 39px;
-    padding-left: 30px;
-    padding-bottom: 15px;
-}
+        .Financial-Services,
+        .Retail {
+            width: 330px;
+            height: 318px;
+            background: #434AC9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 
-.Health-Car-title {
-    padding-left: 30px;
-    color: #FFF;
-    font-size: 22px;
-    font-weight: 600;
-}
+        .Manufacturing-Engineering {
+            width: 315px;
+            height: 661px;
+            background: #434AC9;
+            grid-column: 3;
+            grid-row: span 2;
 
-.Health-Car-description {
-    width: 607px;
-    height: 82px;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 400;
-    padding-left: 30px;
-    padding-top: 12px;
-}
+        }
 
-.read-more {
-    color: #FFF;
-    font-size: 18px;
-    font-weight: 400;
-    padding-left: 30px;
-    padding-top: 18px;
-}
-.Financial-Services,.Retail{
-    width: 330px;
-    height: 318px;
-    background: #434AC9;
-
-}
-.Manufacturing-Engineering{
-    width: 315px;
-    height: 661px;
-    background: #434AC9;
-}
-    
-</style>
-
-      
+        .read-more {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
 </head>
+
 <body>
-  <div class="best-grid">
-    <div class="Health-Care">
-        <img src="Icons/health-care 1.svg" alt="">
-        <h2 class="Health-Car-title">Health Care</h2>
-        <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-            1500s</p>
-        <p class="read-more">Read More...</p>
-    </div>
-    <div class="Financial-Services">
-        <img src="Icons/financial-services 1.svg" alt="">
-        <h2 class="Health-Car-title">Financial Services</h2>
-        <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-            1500s</p>
-        <p class="read-more">Read More...</p>
-    </div>
-    <div class="Manufacturing-Engineering">
-        <div>
-            <img src="Icons/manufacturing 1.svg" alt="">
-            <h2 class="Health-Car-title">Manufacturing</h2>
+    <div class="document-item">
+        <div class="Health-Care">
+            <img src="Icons/health-care 1.svg" alt="">
+            <h2 class="Health-Car-title">Health Care</h2>
             <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-                the 1500s</p>
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s</p>
             <p class="read-more">Read More...</p>
         </div>
-        <div>
-            <img src="Icons/engineering 1.svg" alt="">
-            <h2 class="Health-Car-title">Engineering</h2>
+        <div class="Financial-Services">
+            <img src="Icons/financial-services 1.svg" alt="">
+            <h2 class="Health-Car-title">Financial Services</h2>
             <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
-                the 1500s</p>
+                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                1500s</p>
+            <p class="read-more">Read More...</p>
+        </div>
+        <div class="Manufacturing-Engineering">
+            <div>
+                <img src="Icons/manufacturing 1.svg" alt="">
+                <h2 class="Health-Car-title">Manufacturing</h2>
+                <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                    the 1500s</p>
+                <p class="read-more">Read More...</p>
+            </div>
+            <div>
+                <img src="Icons/engineering 1.svg" alt="">
+                <h2 class="Health-Car-title">Engineering</h2>
+                <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since
+                    the 1500s</p>
+                <p class="read-more">Read More...</p>
+            </div>
+        </div>
+        <div class="Retail">
+            <img src="Icons/e-commerce 1.svg" alt="">
+            <h2 class="Health-Car-title">Retail</h2>
+            <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p class="read-more">Read More...</p>
+        </div>
+        <div class="Scientific">
+            <img src="Icons/science 1.svg" alt="">
+            <h2 class="Health-Car-title">Scientific</h2>
+            <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
             <p class="read-more">Read More...</p>
         </div>
     </div>
-    <div class="Retail">
-        <img src="Icons/e-commerce 1.svg" alt="">
-        <h2 class="Health-Car-title">Retail</h2>
-        <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        <p class="read-more">Read More...</p>
-    </div>
-    <div class="Scientific">
-        <img src="Icons/science 1.svg" alt="">
-        <h2 class="Health-Car-title">Scientific</h2>
-        <p class="Health-Car-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        <p class="read-more">Read More...</p>
-    </div>
-
-</div>
-
-   
 </body>
+
 </html>

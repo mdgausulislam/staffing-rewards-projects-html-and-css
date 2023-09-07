@@ -733,6 +733,15 @@ hr {
     padding-top: 26px;
 }
 
+
+
+
+
+
+
+
+/* best grid problem in my life */
+
 .container4 {
     width: 1590px;
     margin-top: 91px;
@@ -788,7 +797,7 @@ hr {
     background-color: #333333;
 }
 
-.best-grid {
+/* .best-grid {
     padding-top: 65px;
     padding-left: 105px;
 }
@@ -840,13 +849,125 @@ hr {
     height: 661px;
     background: #434AC9;
 }
-.best-grid{
+.best-grid {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-column-start: 3;
-    grid-row-start: 1;
-    grid-row-end:2;
-} 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+.Retail{
+    grid-template-columns: 330px;
+}
+
+
+/* .Financial-Services,
+.Retail,
+.Manufacturing-Engineering {
+    width: 330px;
+    text-align: center; 
+
+} */
+
+/* .Manufacturing-Engineering {
+    grid-column: 3; 
+    grid-row: span 2;
+}
+
+.read-more {
+    text-align: center;
+    margin-top: 10px;
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.best-grid {
+    padding-top: 65px;
+    padding-left: 105px;
+    padding-bottom: 86px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.Health-Care,
+.Scientific {
+    width: 675px;
+    height: 318px;
+    background: #434AC9;
+}
+
+.Health-Care img {
+    padding-top: 39px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.Health-Car-title {
+    padding-left: 30px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Health-Car-description {
+    width: 607px;
+    height: 82px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.read-more {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 18px;
+}
+
+.Financial-Services,
+.Retail {
+    width: 330px; /* Set a fixed width for these elements */
+    height: 318px;
+    background: #434AC9;
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.Manufacturing-Engineering {
+    width: 315px;
+    height: 661px;
+    background: #434AC9;
+    grid-column: 3; /* Start at column 3 */
+    grid-row: span 2; /* Span two rows */
+}
+
+/* Additional styling for read-more links if needed */
+.read-more {
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 
 
