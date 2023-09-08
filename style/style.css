@@ -488,7 +488,7 @@ hr {
 }
 
 .container hr {
-    width: 1590px;
+    width: 411px;
     height: 1px;
     color: #333333;
     margin-top: -5px;
@@ -795,18 +795,43 @@ hr {
 }
 
 .best-grid {
-    padding-top: 65px;
     padding-left: 105px;
-    padding-bottom: 86px;
+    padding-right: 105px;
+    padding-top: 65px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 25px;
 }
 
-.Health-Care,
-.Scientific {
-    width: 675px;
+.Health-Care {
+    background: #434AC9;
+    grid-column: 1 / 3;
     height: 318px;
+    width: 675px;
+}
+.Financial-Services{
+    height: 318px;
+    width: 330px;
+    background: #434AC9;
+}
+
+.Manufacturing-Engineering {
+    width: 330px;
+    height: 661px;
+    grid-column: 4;
+    grid-row: 1 / 3;
+    background: #434AC9;
+}
+.Retail{
+    height: 318px;
+    width: 330px;
+    background: #434AC9;
+}
+.Scientific{
+    height: 318px;
+    width: 675px;
+    grid-column: 2 / 4;
     background: #434AC9;
 }
 
@@ -832,7 +857,6 @@ hr {
     padding-left: 30px;
     padding-top: 12px;
 }
-
 .read-more {
     color: #FFF;
     font-size: 18px;
@@ -840,30 +864,109 @@ hr {
     padding-left: 30px;
     padding-top: 18px;
 }
-
-.Financial-Services,
-.Retail {
-    width: 330px;
-    height: 318px;
-    background: #434AC9;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.Financial-Services img{
+    padding-top: 39px;
+    padding-left: 38px;
+    padding-bottom: 15px;
 }
 
-.Manufacturing-Engineering {
-    width: 315px;
-    height: 661px;
-    background: #434AC9;
-    grid-column: 3;
-    grid-row: span 2;
+.Financial-Services-title{
+    padding-left: 38px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
 }
-
-
-.read-more {
-    text-align: center;
-    margin-top: 10px;
+.Financial-Services-description{
+    width: 259px;
+    height: 82px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+}
+.Manufacturing-Engineering img{
+    padding-top: 39px;
+    padding-left: 32px;
+    padding-bottom: 15px;
+}
+.Manufacturing-Engineering-title{
+    padding-left: 32px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+.Manufacturing-Engineering-description{
+    width: 259px;
+    height: 82px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 32px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+}
+.engineering img{
+    padding-top: 106px;
+}
+.engineering-title{
+    padding-left: 32px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+.engineering-description{
+    width: 259px;
+    height: 82px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 32px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+}
+.Retail img{
+    padding-top: 39px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.Retail-title{
+    padding-left: 30px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+.Retail-description{
+    width: 259px;
+    height: 82px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+}
+.Scientific img{
+    padding-top: 37px;
+    padding-left: 26px;
+    padding-bottom: 15px;
+}
+.Scientific-title{
+    padding-left: 26px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 600;
+}
+.Scientific-description{
+    width: 607px;
+    height: 82px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 26px;
+    padding-top: 12px;
+    padding-bottom: 18px;
 }
 
 
