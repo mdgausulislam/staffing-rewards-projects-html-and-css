@@ -1036,7 +1036,6 @@ hr {
     grid-template-columns: repeat(8, 1fr);
     grid-column-gap: 15px;
     margin-left: -52px;
-    margin-right: -52px;
     padding-bottom: 107px;
 
 }
@@ -1053,7 +1052,7 @@ hr {
 }
 
 .box-10:last-child {
-    margin-right: 0;
+    width: 188px;
 }
 
 
