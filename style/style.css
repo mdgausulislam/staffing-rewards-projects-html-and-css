@@ -532,7 +532,7 @@ hr {
     perspective: 550px;
 }
 
-.button2 {
+/* .button2 {
     transform: rotateY(38deg) rotateZ(1deg);
     position: absolute;
     height: 95px;
@@ -550,7 +550,7 @@ hr {
     font-size: 30px;
     font-weight: 600;
     margin-left: -90px;
-}
+} */
 
 .achievements-description {
     color: #000;
@@ -1534,7 +1534,7 @@ hr {
     .item-values,
     .item-values1 {
         margin-top: 20px;
-        width: 113%;
+        width: 116%;
     }
 
     .best-percent {
@@ -1559,6 +1559,7 @@ hr {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
         grid-row-gap: 30px;
+        padding-bottom: 10px;
     }
 
     .as-seen-image1,
@@ -1592,14 +1593,24 @@ hr {
         text-align: center;
         font-size: 26px;
     }
+    .who-are-description{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     .achievement {
         flex-direction: column;
         gap: 0px;
     }
+    .Achievements-title {
+        padding-top: 30px;
+        font-size: 26px;
+    }
 
     .grid-item {
-        grid-column-gap: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        grid-column-gap: 15px;
         grid-row-gap: 20px;
         padding-top: 20px;
     }
@@ -1609,17 +1620,51 @@ hr {
     }
 
     .percentage {
-        font-size: 40px;
+        font-size: 25px;
     }
-    .button2{
-        width: 260px;
-        height: 60px;
-        margin-left: 60px;
-        margin-top: 15px;
+    .join2 img{
+        height: 50%;
+        width: 75%;
     }
-    .join2 span{
-        margin-left: 0px;
+
+    /* container part updated */
+
+    .container2{
+        width: 100%;
+    } 
+    .our-details {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .service-list{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .service-details {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 100%;
+    }
+    .box {
+        display: none;
+    }
+    .service-it hr{
+        display: none;
+    }
+    .Consulting-description{
+        padding-bottom: 20px;
+    }
+    .Consulting-title {
+        padding-top: 20px;
         font-size: 22px;
+    }
+   
+    .careers-info hr{
+        width: 100%;
+    }
+    .careers-info {
+        padding:20px;
     }
 }
 
