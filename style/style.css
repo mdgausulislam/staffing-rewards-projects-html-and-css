@@ -1328,9 +1328,9 @@ hr {
     border-radius: 10px;
 }
 
-.bars-menu{
+/* .bars-menu{
     display: none;
-}
+} */
 
 @media screen and (max-width:767px){
         main{
@@ -1351,6 +1351,9 @@ hr {
             gap: 10px;
             text-align: center;
         }
+        .menu-item li a::after{
+            display: none;
+        }
         .menu-item li a:hover{
             cursor: pointer;
             background-color: aqua;
@@ -1359,4 +1362,29 @@ hr {
         .menu-item li {
             margin-bottom: 10px;
         }
+
+        .banner2{
+            flex-direction: column-reverse;
+            padding: 20px;
+        }
+        .banner-img img{
+            width: 100%;
+            height: 100%;
+        }
+        .banner-title{
+            margin-top: 20px;
+            font-size: 45px;
+        }
+        .banner-join-ask{
+            text-align: center;
+        }
+        .join-details{
+            justify-content: center;
+        }
+        .rewards-info{
+            padding-top:40px;
+            justify-content: center;
+        }
+
+
 }
