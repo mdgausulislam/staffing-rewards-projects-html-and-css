@@ -1354,9 +1354,14 @@ hr {
     body {
         overflow-x: hidden;
     }
+
     header {
         width: 100%;
         height: 100%;
+    }
+
+    header hr {
+        display: none;
     }
 
     .banner {
@@ -1395,41 +1400,72 @@ hr {
         flex-direction: column-reverse;
         padding: 20px;
     }
+
     .banner-img img {
-            width: 100%;
-            height: auto;
+        width: 100%;
+        height: auto;
     }
+
     .banner-title {
-        font-size: 36px;
+        width: 100%;
+        padding-top: 20px;
+        font-size: 26px;
         text-align: center;
     }
 
+    .banner-description {
+        font-size: 18px;
+    }
+
+    .banner-network {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
     .banner-join-ask {
-        font-size: 24px;
+        padding: 0px 20px;
+        font-size: 20px;
         text-align: center;
     }
 
     .join-details {
+        padding: 20px;
         justify-content: center;
+        grid-row-gap: 10px;
+        grid-column-gap: 20px;
+    }
+
+    .ratio-item p {
+        font-size: 18px;
     }
 
     .rewards-info {
-        padding-top: 40px;
+        grid-column-gap: 20px;
+        padding-top: 20px;
         justify-content: center;
     }
 
+    .join {
+        height: 180px;
+    }
+
     .button {
-        margin-left:130px;
+        height: 60px;
+        width: 180px;
+        margin-left: 130px;
     }
 
     .join span {
-        padding-left: 165px;
+        font-size: 20px;
+        padding-left: 155px;
+        padding-top: 45px;
     }
 
     .banner-platform {
         padding: 20px;
-        gap: 20px;
+        gap: 15px;
         margin-top: -75px;
+        height: 100px;
     }
 
     .platform-description {
@@ -1439,6 +1475,4 @@ hr {
     .hide {
         display: none;
     }
-
-
 }
