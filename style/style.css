@@ -783,6 +783,7 @@ hr {
 }
 
 .details-explore hr {
+    width: 1375px;
     margin: 30px 104px;
 }
 
@@ -1534,7 +1535,7 @@ hr {
     .item-values,
     .item-values1 {
         margin-top: 20px;
-        width: 116%;
+        width: 118%;
     }
 
     .best-percent {
@@ -1593,7 +1594,8 @@ hr {
         text-align: center;
         font-size: 26px;
     }
-    .who-are-description{
+
+    .who-are-description {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -1602,6 +1604,7 @@ hr {
         flex-direction: column;
         gap: 0px;
     }
+
     .Achievements-title {
         padding-top: 30px;
         font-size: 26px;
@@ -1622,86 +1625,190 @@ hr {
     .percentage {
         font-size: 25px;
     }
-    .join2 img{
+
+    .join2 img {
         height: 50%;
         width: 75%;
     }
 
     /* container part updated */
 
-    .container2{
+    .container2 {
         width: 100%;
-    } 
+    }
+
     .our-details {
         padding-left: 0px;
         font-size: 26px;
         padding-top: 20px;
         text-align: center;
     }
-    .service-list{
+
+    .service-list {
         flex-direction: column;
         gap: 0px;
     }
+
     .service-details {
+        font-size: 20px;
         padding-left: 0px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    width: 100%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        text-align: center;
+        width: 100%;
     }
+
     .box {
         display: none;
     }
-    .service-it hr{
+
+    .service-it hr {
         display: none;
     }
-    .Consulting-description{
+
+    .Consulting-description {
         padding-bottom: 20px;
     }
+
     .Consulting-title {
         padding-top: 20px;
         font-size: 22px;
     }
-   
-    .careers-info hr{
+
+    .careers-info hr {
         width: 100%;
     }
+
     .careers-info {
-        padding:20px;
+        padding: 20px;
     }
-    .join3{
-padding-left: 0px;
+
+    .join3 {
+        padding-left: 0px;
     }
-    .join3 img{
-        height: 75%;
-        width: 75%;
+
+    .join3 img {
+        height: 100%;
+        width: 100%;
     }
 
     /* container-3 section part  end */
-    .container3{
+    .container3 {
         margin-top: 30px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .container3::before {
         width: 100%;
         height: 100%;
     }
 
-    .container3::before{
-        width: 100%;
-        height: 100%;
-    }
     .container3::after {
         width: 100%;
         height: 100%;
-    } 
-    .video-description{
+    }
+
+    .video-description {
+        font-size: 16px;
+        padding-top: 15px;
         padding-left: 20px;
         padding-right: 20px;
         margin-left: 0px;
         width: 100%;
     }
-    .container3 img{
+
+    .container3 img {
         margin: 0;
-        margin-left: 200px;
+        margin-left: 240px;
+        padding-top: 15px;
     }
+    .video-title{
+        font-size: 26px;
+        padding-bottom: 0px;
+        padding-top: 15px;
+    }
+    .video-watch{
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 12px;
+    }
+    .icons-video{
+        width: 10%;
+        height: 10%;
+    }
+
+    /* video section part end */
+    .Explore-title {
+        padding-left: 0px;
+        padding-top: 20px;
+      text-align: center;
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+    .Explore-info{
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .Explore-description{
+        padding-left: 20px;
+        width: 400px;
+    }
+    .details-explore hr {
+        display: none;
+    }
+    .Explore-img img{
+        width: 75%;
+        height: 50%;
+    }
+    .box2 {
+        display: none;
+    }
+
+    .best-grid {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+       
+      }
+    
+      .Health-Care,
+      .Scientific {
+        width: 59%;
+        height: 100%;
+      }
+      .Health-Care{
+        grid-column: 1/4;
+      }
+      .Health-Care img {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+      }
+      .Health-Car-title{
+        padding-left: 20px;
+      }
+      .Health-Car-description{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .read-more{
+        padding-left: 20px;
+        padding-top: 0px;
+      }
+
+      .Financial-Services,
+      .Manufacturing-Engineering,
+      .Retail {
+        width: 100%;
+        grid-column: auto;
+        grid-row: auto;
+        margin-bottom: 20px;
+      }
+
 }
 
 
