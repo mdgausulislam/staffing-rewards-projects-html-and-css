@@ -1479,11 +1479,11 @@ hr {
     }
 
     .platform-description {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .links-list img {
-        width: 100%;
+        width: 110%;
     }
 
     /* navbar and banner part end */
@@ -1508,7 +1508,7 @@ hr {
         grid-row-gap: 20px;
     }
    
-    .calculate-Potential-list{
+    .calculate-Potential-list, .Best-Case-Scenario,.Best-Case-Scenario{
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
@@ -1516,10 +1516,15 @@ hr {
     .btn3{
         margin-left: 130px;
         margin-top: 0px;
+        margin-bottom: 10px;
     }
+    .container hr{
+        width: 65%;
+    }
+    .item-values{
+        width: 100%;
 
-
-
+    }
 }
 
 
