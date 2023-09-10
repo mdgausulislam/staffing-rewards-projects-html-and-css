@@ -1914,7 +1914,7 @@ hr {
     .footer-description{
         padding-left: 20px;
         padding-right: 20px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .footer hr{
         width: 90%;
@@ -1926,22 +1926,22 @@ hr {
         display: none;
     }
     .footer-details{
-        grid-column-gap: 20px;
+        grid-column-gap: 10px;
         padding-top: 25px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .footer-type{
-        font-size: 20px;
+        font-size: 16px;
     }
     .why-sr-details, .Capabilities-details,.Social-details,.Reach-us-details {
-        font-size: 14px;
+        font-size: 10px;
     }
     .icon-vector{
-        padding-left: 20px;
+        padding-left: 10px;
     } 
     .all-rights{
-        padding-left: 20px;
+        padding-left: 10px;
     }
 }
 
