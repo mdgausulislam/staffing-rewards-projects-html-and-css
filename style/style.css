@@ -1483,47 +1483,76 @@ hr {
     }
 
     .links-list img {
-        width: 110%;
+        width: 100%;
     }
 
     /* navbar and banner part end */
-    main{
+    main {
         width: 100%;
     }
-    .box6{
+
+    .box6 {
         display: none;
     }
-    .container{
+
+    .container {
         width: 100%;
         padding: 0px;
     }
-    .container-title {
+
+    .container-title,.as-seen-on-title {
         padding-top: 20px;
         text-align: center;
         font-size: 26px;
         margin-bottom: 20px;
     }
-    .calculate-Potential{
-        grid-template-columns:100%;
+
+    .calculate-Potential {
+        grid-template-columns: 100%;
         grid-row-gap: 20px;
     }
-   
-    .calculate-Potential-list, .Best-Case-Scenario,.Best-Case-Scenario{
+
+    .calculate-Potential-list,
+    .Best-Case-Scenario,
+    .Best-Case-Scenario {
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
     }
-    .btn3{
+
+    .btn3 {
         margin-left: 130px;
         margin-top: 0px;
         margin-bottom: 10px;
     }
-    .container hr{
-        width: 65%;
-    }
-    .item-values{
-        width: 100%;
 
+    .container hr {
+        width: 85%;
+    }
+
+    .item-values,
+    .item-values1 {
+        margin-top: 20px;
+        width: 110%;
+    }
+
+    .best-percent {
+        font-size: 30px;
+    }
+
+    .value {
+        font-size: 30px;
+    }
+
+    /* container part-end */
+
+    .as-seen-on{
+        width: 90%;
+        height: 100%;
+    }
+    .as-on-img-list {
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 20px;
     }
 }
 
