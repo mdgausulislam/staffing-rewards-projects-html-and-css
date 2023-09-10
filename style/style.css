@@ -1500,7 +1500,8 @@ hr {
         padding: 0px;
     }
 
-    .container-title,.as-seen-on-title {
+    .container-title,
+    .as-seen-on-title {
         padding-top: 20px;
         text-align: center;
         font-size: 26px;
@@ -1533,7 +1534,7 @@ hr {
     .item-values,
     .item-values1 {
         margin-top: 20px;
-        width: 110%;
+        width: 113%;
     }
 
     .best-percent {
@@ -1546,13 +1547,79 @@ hr {
 
     /* container part-end */
 
-    .as-seen-on{
-        width: 90%;
+    .as-seen-on {
+        margin-top: 20px;
+        width: 100%;
         height: 100%;
     }
+
     .as-on-img-list {
-        grid-template-columns: repeat(2,1fr);
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 20px;
+        grid-row-gap: 30px;
+    }
+
+    .as-seen-image1,
+    .as-seen-image2,
+    .as-seen-image3,
+    .as-seen-image4,
+    .as-seen-image5,
+    .as-seen-image6,
+    .as-seen-image7,
+    .as-seen-image8 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo-circle {
+        display: none;
+    }
+
+    /* container part-end */
+
+    .who-are-img {
+        width: 100%;
+    }
+
+    .box7 {
+        display: none;
+    }
+
+    .who-are-title {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .achievement {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .grid-item {
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        padding-top: 20px;
+    }
+
+    .achievements-description {
+        width: 100%;
+    }
+
+    .percentage {
+        font-size: 40px;
+    }
+    .button2{
+        width: 260px;
+        height: 60px;
+        margin-left: 60px;
+        margin-top: 15px;
+    }
+    .join2 span{
+        margin-left: 0px;
+        font-size: 22px;
     }
 }
 
