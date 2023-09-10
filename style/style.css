@@ -1688,8 +1688,9 @@ hr {
     }
 
     .join3 img {
-        height: 100%;
-        width: 100%;
+        height: 90%;
+        width: 70%;
+        margin-left: 30px;
     }
 
     /* container-3 section part  end */
@@ -1720,7 +1721,7 @@ hr {
 
     .container3 img {
         margin: 0;
-        margin-left: 200px;
+        margin-left: 180px;
         padding-top: 15px;
     }
 
@@ -1819,6 +1820,7 @@ hr {
 
     .community-img img {
         width: 100%;
+        height: 100%;
     }
 
     .community-title,
@@ -1846,7 +1848,7 @@ hr {
     .btn4 {
         width: 185px;
         height: 50px;
-        margin-left: 130px;
+        margin-left: 120px;
     }
 
     .community-info {
@@ -1887,8 +1889,60 @@ hr {
     }
     .profile-review {
         padding-bottom: 20px;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .img-01{
+        width: 100%;
+        height: 100%;
+        padding-left: 0px;
+    }
+    .img-02{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
     }
 
+    .our-motor{
+        padding-top: 40px;
+        font-size: 26px;
+    }
+    .footer-title{
+        font-size: 26px;
+    }
+    .footer-description{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+    .footer hr{
+        width: 90%;
+        margin-top: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .box5 {
+        display: none;
+    }
+    .footer-details{
+        grid-column-gap: 20px;
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-type{
+        font-size: 20px;
+    }
+    .why-sr-details, .Capabilities-details,.Social-details,.Reach-us-details {
+        font-size: 14px;
+    }
+    .icon-vector{
+        padding-left: 20px;
+    } 
+    .all-rights{
+        padding-left: 20px;
+    }
 }
 
 
