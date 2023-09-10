@@ -1440,9 +1440,12 @@ hr {
     }
 
     .rewards-info {
-        grid-column-gap: 20px;
+        grid-column-gap: 15px;
         padding-top: 20px;
         justify-content: center;
+    }
+    .refer-title{
+        font-size: 18px;
     }
 
     .join {
@@ -1452,17 +1455,17 @@ hr {
     .button {
         height: 60px;
         width: 180px;
-        margin-left: 130px;
+        margin-left: 100px;
     }
 
     .join span {
         font-size: 20px;
-        padding-left: 155px;
+        padding-left: 125px;
         padding-top: 45px;
     }
 
     .banner-platform {
-        padding: 20px;
+        padding: 16px;
         gap: 15px;
         margin-top: -75px;
         height: 100px;
@@ -1470,6 +1473,9 @@ hr {
 
     .platform-description {
         font-size: 20px;
+    }
+    .links-list{
+        width: 50%;
     }
 
     .hide {
