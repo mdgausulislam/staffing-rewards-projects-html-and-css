@@ -1693,7 +1693,7 @@ hr {
     }
 
     /* container-3 section part  end */
-    .container3 {
+    /* .container3 {
         margin-top: 30px;
         width: 100%;
         height: 50%;
@@ -1720,7 +1720,7 @@ hr {
 
     .container3 img {
         margin: 0;
-        margin-left: 240px;
+        margin-left: 200px;
         padding-top: 15px;
     }
     .video-title{
@@ -1736,11 +1736,11 @@ hr {
     .icons-video{
         width: 10%;
         height: 10%;
-    }
+    } */
 
     /* video section part end */
-    .Explore-title {
-        padding-left: 0px;
+    /* .Explore-title {
+        padding-left: 20px;
         padding-top: 20px;
       text-align: center;
         font-size: 26px;
@@ -1751,7 +1751,7 @@ hr {
         align-items: flex-end;
     }
     .Explore-description{
-        padding-left: 20px;
+        padding-left: 40px;
         width: 400px;
     }
     .details-explore hr {
@@ -1775,22 +1775,22 @@ hr {
       }
     
       .Health-Care,
-      .Scientific {
-        width: 59%;
+      .Scientific,.Financial-Services {
+        width: 50%;
         height: 100%;
       }
-      .Health-Care{
+      .Health-Care,.Financial-Services{
         grid-column: 1/4;
       }
-      .Health-Care img {
+      .Health-Care img,.Financial-Services {
         padding-left: 20px;
         padding-top: 20px;
         padding-bottom: 10px;
       }
-      .Health-Car-title{
+      .Health-Car-title,.Financial-Services{
         padding-left: 20px;
       }
-      .Health-Car-description{
+      .Health-Car-description,.Financial-Services{
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
@@ -1798,16 +1798,49 @@ hr {
       .read-more{
         padding-left: 20px;
         padding-top: 0px;
-      }
+        padding-bottom: 5px;
+      } */
 
-      .Financial-Services,
-      .Manufacturing-Engineering,
-      .Retail {
+
+    .community {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 26px;
+    }
+
+    .community-details {
+        flex-direction: column;
+        gap: 0px;
+        align-items: normal;
+    }
+
+    .community-img img {
         width: 100%;
-        grid-column: auto;
-        grid-row: auto;
-        margin-bottom: 20px;
-      }
+    }
+
+    .community-title,.go-back {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .community-info hr {
+        display: none;
+    }
+
+    .box4 {
+        display: none;
+    }
+    .community-description,.go-back-description{
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .btn4 {
+        width: 185px;
+        height: 50px;
+        margin-left: 150px;
+    }
 
 }
 
