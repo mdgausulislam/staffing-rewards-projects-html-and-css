@@ -1884,13 +1884,11 @@ hr {
     .profile{
         padding-left: 20px;
     }
-    .arrow{
-        padding-right: 20px;
-    }
+   
     .profile-review {
         padding-bottom: 20px;
-        justify-content: flex-start;
-        gap: 10px;
+        justify-content: normal;
+        gap: 1px;
     }
     .img-01{
         width: 100%;
