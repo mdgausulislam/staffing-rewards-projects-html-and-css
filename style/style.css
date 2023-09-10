@@ -1633,6 +1633,8 @@ hr {
         width: 100%;
     } 
     .our-details {
+        padding-left: 0px;
+        font-size: 26px;
         padding-top: 20px;
         text-align: center;
     }
@@ -1641,6 +1643,7 @@ hr {
         gap: 0px;
     }
     .service-details {
+        padding-left: 0px;
     padding-top: 25px;
     padding-bottom: 25px;
     text-align: center;
@@ -1665,6 +1668,39 @@ hr {
     }
     .careers-info {
         padding:20px;
+    }
+    .join3{
+padding-left: 0px;
+    }
+    .join3 img{
+        height: 75%;
+        width: 75%;
+    }
+
+    /* container-3 section part  end */
+    .container3{
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container3::before{
+        width: 100%;
+        height: 100%;
+    }
+    .container3::after {
+        width: 100%;
+        height: 100%;
+    } 
+    .video-description{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .container3 img{
+        margin: 0;
+        margin-left: 200px;
     }
 }
 
