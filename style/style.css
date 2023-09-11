@@ -795,48 +795,55 @@ hr {
     background-color: #333333;
 }
 
+
 .best-grid {
     padding-left: 105px;
     padding-right: 105px;
     padding-top: 65px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 30px;
+    grid-template-areas:
+        "Health-Care Health-Care Financial-Services Manufacturing-Engineering"
+        "Retail Scientific Scientific Manufacturing-Engineering";
     grid-row-gap: 25px;
+    grid-column-gap: 30px;
+    justify-items: center;
 }
 
 .Health-Care {
     background: #434AC9;
-    grid-column: 1 / 3;
     height: 318px;
     width: 675px;
+    grid-area: Health-Care;
 }
 
 .Financial-Services {
     height: 318px;
     width: 330px;
     background: #434AC9;
+    grid-area: Financial-Services;
 }
 
 .Manufacturing-Engineering {
-    width: 330px;
+    width: 315px;
     height: 661px;
-    grid-column: 4;
-    grid-row: 1 / 3;
     background: #434AC9;
+    grid-area: Manufacturing-Engineering;
+
 }
 
 .Retail {
     height: 318px;
     width: 330px;
     background: #434AC9;
+    grid-area: Retail;
 }
 
 .Scientific {
     height: 318px;
     width: 675px;
-    grid-column: 2 / 4;
     background: #434AC9;
+    grid-area: Scientific;
 }
 
 .Health-Care img {
@@ -987,7 +994,6 @@ hr {
     padding-top: 12px;
     padding-bottom: 18px;
 }
-
 
 .container4 {
     width: 1920px;
@@ -1639,6 +1645,8 @@ hr {
 
     /* container part updated */
 
+
+
     .container2 {
         width: 100%;
     }
@@ -1700,6 +1708,17 @@ hr {
     }
 
     /* container-3 section part  end */
+
+
+
+
+
+
+
+
+
+
+
     .container3 {
         margin-top: 30px;
         width: 100%;
@@ -1749,6 +1768,14 @@ hr {
     }
 
     /* video section part end */
+
+
+
+
+
+
+
+
     .Explore-title {
         padding-left: 20px;
         padding-top: 20px;
@@ -1781,264 +1808,61 @@ hr {
     }
 
     .best-grid {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
         padding-top: 20px;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-column-gap: 0;
+        justify-items: normal;
+        grid-template-areas:
+            "Health-Care"
+            "Financial-Services"
+            "Manufacturing-Engineering"
+            "Retail"
+            "Scientific";
     }
 
     .Health-Care,
     .Scientific,
-    .Financial-Services {
-        width: 50%;
+    .Financial-Services,
+    .Retail,
+    .Manufacturing-Engineering {
+        width: 100%;
         height: 100%;
     }
 
-    .Health-Care,
-    .Financial-Services {
-        grid-column: 1/4;
-    }
-
     .Health-Care img,
-    .Financial-Services {
-        padding-left: 20px;
+    .Financial-Services img,
+    .Manufacturing-Engineering img,
+    .Retail img,
+    .Scientific img {
         padding-top: 20px;
+        padding-left: 20px;
         padding-bottom: 10px;
     }
 
     .Health-Car-title,
-    .Financial-Services {
+    .Financial-Services-title,
+    .Manufacturing-Engineering-title,
+    .Retail-title,
+    .Scientific-title {
         padding-left: 20px;
+        font-size: 20px;
     }
 
     .Health-Car-description,
-    .Financial-Services {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .read-more {
-        padding-left: 20px;
-        padding-top: 0px;
-        padding-bottom: 5px;
-    }
-
-
-
-
-/* 
-    .best-grid {
-        padding-left: 105px;
-        padding-right: 105px;
-        padding-top: 65px;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-column-gap: 30px;
-        grid-row-gap: 25px;
-    }
-    
-    .Health-Care {
-        background: #434AC9;
-        grid-column: 1 / 3;
-        height: 318px;
-        width: 675px;
-    }
-    
-    .Financial-Services {
-        height: 318px;
-        width: 330px;
-        background: #434AC9;
-    }
-    
-    .Manufacturing-Engineering {
-        width: 330px;
-        height: 661px;
-        grid-column: 4;
-        grid-row: 1 / 3;
-        background: #434AC9;
-    }
-    
-    .Retail {
-        height: 318px;
-        width: 330px;
-        background: #434AC9;
-    }
-    
-    .Scientific {
-        height: 318px;
-        width: 675px;
-        grid-column: 2 / 4;
-        background: #434AC9;
-    }
-    
-    .Health-Care img {
-        padding-top: 39px;
-        padding-left: 30px;
-        padding-bottom: 15px;
-    }
-    
-    .Health-Car-title {
-        padding-left: 30px;
-        color: #FFF;
-        font-size: 22px;
-        font-weight: 600;
-    }
-    
-    .Health-Car-description {
-        width: 607px;
-        height: 82px;
-        color: #FFF;
-        font-size: 16px;
-        font-weight: 400;
-        padding-left: 30px;
-        padding-top: 12px;
-    }
-    
-    .read-more {
-        color: #FFF;
-        font-size: 18px;
-        font-weight: 400;
-        padding-left: 30px;
-        padding-top: 18px;
-    }
-    
-    .Financial-Services img {
-        padding-top: 39px;
-        padding-left: 38px;
-        padding-bottom: 15px;
-    }
-    
-    .Financial-Services-title {
-        padding-left: 38px;
-        color: #FFF;
-        font-size: 22px;
-        font-weight: 600;
-    }
-    
-    .Financial-Services-description {
-        width: 259px;
-        height: 82px;
-        color: #FFF;
-        font-size: 16px;
-        font-weight: 400;
-        padding-left: 30px;
-        padding-top: 12px;
-        padding-bottom: 18px;
-    }
-    
-    .Manufacturing-Engineering img {
-        padding-top: 39px;
-        padding-left: 32px;
-        padding-bottom: 15px;
-    }
-    
-    .Manufacturing-Engineering-title {
-        padding-left: 32px;
-        color: #FFF;
-        font-size: 22px;
-        font-weight: 600;
-    }
-    
-    .Manufacturing-Engineering-description {
-        width: 259px;
-        height: 82px;
-        color: #FFF;
-        font-size: 16px;
-        font-weight: 400;
-        padding-left: 32px;
-        padding-top: 12px;
-        padding-bottom: 18px;
-    }
-    
-    .engineering img {
-        padding-top: 106px;
-    }
-    
-    .engineering-title {
-        padding-left: 32px;
-        color: #FFF;
-        font-size: 22px;
-        font-weight: 600;
-    }
-    
-    .engineering-description {
-        width: 259px;
-        height: 82px;
-        color: #FFF;
-        font-size: 16px;
-        font-weight: 400;
-        padding-left: 32px;
-        padding-top: 12px;
-        padding-bottom: 18px;
-    }
-    
-    .Retail img {
-        padding-top: 39px;
-        padding-left: 30px;
-        padding-bottom: 15px;
-    }
-    
-    .Retail-title {
-        padding-left: 30px;
-        color: #FFF;
-        font-size: 22px;
-        font-weight: 600;
-    }
-    
+    .Scientific-description,
+    .Financial-Services-description,
+    .Manufacturing-Engineering-description,
     .Retail-description {
-        width: 259px;
-        height: 82px;
-        color: #FFF;
-        font-size: 16px;
-        font-weight: 400;
-        padding-left: 30px;
-        padding-top: 12px;
-        padding-bottom: 18px;
+        width: 100%;
+        height: 20%;
+        padding-left: 20px;
     }
-    
-    .Scientific img {
-        padding-top: 37px;
-        padding-left: 26px;
-        padding-bottom: 15px;
+
+    .read-more {
+        margin-top: 15px;
+        padding-left: 20px;
     }
-    
-    .Scientific-title {
-        padding-left: 26px;
-        color: #FFF;
-        font-size: 22px;
-        font-weight: 600;
-    }
-    
-    .Scientific-description {
-        width: 607px;
-        height: 82px;
-        color: #FFF;
-        font-size: 16px;
-        font-weight: 400;
-        padding-left: 26px;
-        padding-top: 12px;
-        padding-bottom: 18px;
-    } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     .community {
@@ -2054,7 +1878,9 @@ hr {
     }
 
     .community-img img {
-        width: 99%;
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 100%;
         height: 100%;
     }
 
@@ -2277,11 +2103,3 @@ hr {
         padding-bottom: 15px;
     }
 }
-
-
-
-.hide {
-    display: none;
-}
-
-
