@@ -349,14 +349,15 @@ hr {
 }
 
 .item-values {
-    margin-top: 40px;
+    margin-top: 45px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 34px;
     background-color: #1D9E49;
     height: 165px;
     width: 501px;
-    margin-left: -45px;
+    margin-left: -46px;
     border-radius: 0px 0px 8px 8px;
 }
 
@@ -380,14 +381,15 @@ hr {
 }
 
 .item-values1 {
-    margin-top: 40px;
+    margin-top: 45px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 34px;
     background-color: #282563;
     height: 165px;
     width: 501px;
-    margin-left: -45px;
+    margin-left: -46px;
     border-radius: 0px 0px 8px 8px;
 }
 
@@ -1526,21 +1528,24 @@ hr {
         grid-row-gap: 20px;
     }
 
-    .calculate-Potential-list{
+    .calculate-Potential-list {
         padding-left: 20px;
         padding-right: 20px;
         height: 100%;
     }
-    .Best-Case-Scenario{
+
+    .Best-Case-Scenario {
         padding-left: 0px;
         padding-right: 0px;
         height: 100%;
     }
-    .Best-Case-Scenario-description{
+
+    .Best-Case-Scenario-description {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .best-items{
+
+    .best-items {
         padding-left: 80px;
     }
 
@@ -1558,16 +1563,28 @@ hr {
     .item-values,
     .item-values1 {
         margin-left: 0px;
-        margin-top: 10px;
+        margin-top: 0px;
+        padding-top: 10px;
         width: 100%;
     }
 
-    .best-percent {
-        font-size: 30px;
+    .item-value {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        gap: 30px;
     }
 
     .value {
-        font-size: 30px;
+        text-align: center;
+    }
+
+    .best-percent {
+        font-size: 25px;
+    }
+
+    .value {
+        font-size: 25px;
     }
 
     /* container part-end */
@@ -1786,9 +1803,9 @@ hr {
 
 
 
-.container{
-    width: 100%;
-}
+    .container {
+        width: 100%;
+    }
 
     .Explore-title {
         padding-left: 20px;
@@ -1798,9 +1815,9 @@ hr {
     }
 
     .Explore-info {
-       flex-direction: column-reverse;
-       align-items: center;
-       /* justify-content: center; */
+        flex-direction: column-reverse;
+        align-items: center;
+        /* justify-content: center; */
     }
 
     .Explore-description {
@@ -1859,7 +1876,8 @@ hr {
     .Financial-Services-title,
     .Manufacturing-Engineering-title,
     .Retail-title,
-    .Scientific-title,.engineering-title  {
+    .Scientific-title,
+    .engineering-title {
         padding-left: 20px;
         font-size: 20px;
     }
@@ -1868,7 +1886,8 @@ hr {
     .Scientific-description,
     .Financial-Services-description,
     .Manufacturing-Engineering-description,
-    .Retail-description,.engineering-description {
+    .Retail-description,
+    .engineering-description {
         width: 100%;
         height: 20%;
         padding-left: 20px;
@@ -1879,13 +1898,17 @@ hr {
         padding-left: 20px;
         margin-top: 20px;
     }
-    .Scientific .read-more{
+
+    .Scientific .read-more {
         padding-top: 30px;
     }
-    .Scientific-description{
+
+    .Scientific-description {
         padding-bottom: 0px;
     }
-    .engineering,.Manufacturing-Engineering .read-more{
+
+    .engineering,
+    .Manufacturing-Engineering .read-more {
         padding-top: 0px;
         margin-top: 0px;
         padding-bottom: 15px;
@@ -2133,4 +2156,8 @@ hr {
     .profile-review {
         padding-bottom: 15px;
     }
+}
+
+.hide {
+    display: none;
 }
